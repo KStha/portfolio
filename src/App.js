@@ -11,7 +11,7 @@ const App = () => {
       <div className='wrap-content'>
         <div className="container">
           <Router>
-            <Route exact path="/" component={ Home }/>
+            <Route basename="/" component={ Home }/>
 
           </Router>
         </div>
